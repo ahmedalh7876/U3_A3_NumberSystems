@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jPanel1" alignment="0" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jPanel1" alignment="0" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="jPanel1">
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace max="32767" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="binPrmptLbl" alignment="1" min="-2" pref="116" max="-2" attributes="0"/>
+                              <Component id="deciPrmptLbl" alignment="1" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" alignment="1" attributes="0">
+                                  <Component id="binIPTF1" min="-2" pref="88" max="-2" attributes="0"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="binToDecBtn" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="1" attributes="0">
+                                  <Component id="deciIPTF1" min="-2" pref="88" max="-2" attributes="0"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="decToBinBtn" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                              <Component id="binToDecOPLbl" pref="74" max="32767" attributes="0"/>
+                              <Component id="decToBinOPLbl" max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <Group type="102" attributes="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" attributes="0">
+                                  <EmptySpace min="-2" pref="181" max="-2" attributes="0"/>
+                                  <Component id="title" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Group type="103" groupAlignment="1" attributes="0">
+                                      <Component id="hexPrmptLbl" min="-2" max="-2" attributes="0"/>
+                                      <Component id="deciPrmptLbl2" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Group type="102" attributes="0">
+                                          <Component id="hexIPTF2" min="-2" pref="88" max="-2" attributes="0"/>
+                                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                          <Component id="hexToDecBtn" min="-2" pref="97" max="-2" attributes="0"/>
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Component id="hexToDecOPLbl" min="-2" pref="78" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Group type="102" attributes="0">
+                                          <Component id="deciIPTF2" min="-2" pref="88" max="-2" attributes="0"/>
+                                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                          <Component id="decToHexBtn" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                          <Component id="decToHexOPLbl" min="-2" pref="74" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                              </Group>
+                          </Group>
+                          <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace max="32767" attributes="0"/>
+              </Group>
+              <Group type="102" alignment="1" attributes="0">
+                  <EmptySpace max="32767" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="1" attributes="0">
+                          <Component id="decAndBinLbl" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="105" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="1" attributes="0">
+                          <Component id="decAndHexLbl" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="77" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="title" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Component id="decAndBinLbl" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="deciPrmptLbl" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="deciIPTF1" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="decToBinBtn" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="decToBinOPLbl" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="binPrmptLbl" min="-2" max="-2" attributes="0"/>
+                      <Group type="103" alignment="0" groupAlignment="3" attributes="0">
+                          <Component id="binIPTF1" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="binToDecBtn" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="binToDecOPLbl" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace pref="38" max="32767" attributes="0"/>
+                  <Component id="decAndHexLbl" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="deciPrmptLbl2" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="deciIPTF2" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="decToHexBtn" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="decToHexOPLbl" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="hexPrmptLbl" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Group type="103" alignment="0" groupAlignment="3" attributes="0">
+                          <Component id="hexIPTF2" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="hexToDecBtn" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="hexToDecOPLbl" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace min="-2" pref="51" max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="title">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Number System"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="decAndBinLbl">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Decimal and Binary"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="deciPrmptLbl">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Enter a decimal number:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="binPrmptLbl">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Enter a binary  number:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="deciIPTF1">
+        </Component>
+        <Component class="javax.swing.JTextField" name="binIPTF1">
+        </Component>
+        <Component class="javax.swing.JButton" name="decToBinBtn">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Dec. To Bin."/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="binToDecBtn">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Bin. To Dec."/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="decToBinOPLbl">
+          <Properties>
+            <Property name="horizontalAlignment" type="int" value="0"/>
+            <Property name="text" type="java.lang.String" value="-"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="binToDecOPLbl">
+          <Properties>
+            <Property name="horizontalAlignment" type="int" value="0"/>
+            <Property name="text" type="java.lang.String" value="-"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="decAndHexLbl">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Decimal and Hexadecimal"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="deciPrmptLbl2">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Enter a decimal number:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="hexPrmptLbl">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Enter a hexadecimal  number:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="deciIPTF2">
+        </Component>
+        <Component class="javax.swing.JTextField" name="hexIPTF2">
+        </Component>
+        <Component class="javax.swing.JButton" name="decToHexBtn">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Dec. To Hex."/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="hexToDecBtn">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Hex. to Dec."/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="decToHexOPLbl">
+          <Properties>
+            <Property name="horizontalAlignment" type="int" value="0"/>
+            <Property name="text" type="java.lang.String" value="-"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="hexToDecOPLbl">
+          <Properties>
+            <Property name="horizontalAlignment" type="int" value="0"/>
+            <Property name="text" type="java.lang.String" value="-"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
